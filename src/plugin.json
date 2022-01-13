@@ -1,0 +1,36 @@
+{
+    "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+    "type": "panel",
+    "name": "grafana-panel-plugin-map",
+    "id": "hai2007_grafana-panel-plugin-map",
+    "info": {
+        "description": "为Grafana设计开发的Panel地图插件。",
+        "author": {
+            "name": "你好2007",
+            "url": "https://hai2007.gitee.io/sweethome/"
+        },
+        "keywords": [
+            "grafana-panel-plugin-map"
+        ],
+        "logos": {
+            "small": "img/logo.svg",
+            "large": "img/logo.svg"
+        },
+        "links": [{
+                "name": "Website",
+                "url": "https://github.com/hai2007/grafana-panel-plugin-map"
+            },
+            {
+                "name": "License",
+                "url": "https://github.com/hai2007/grafana-panel-plugin-map/blob/master/LICENSE"
+            }
+        ],
+        "screenshots": [],
+        "version": "%VERSION%",
+        "updated": "%TODAY%"
+    },
+    "dependencies": {
+        "grafanaDependency": ">=7.0.0",
+        "plugins": []
+    }
+}
