@@ -1,16 +1,16 @@
 {
     "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
     "type": "panel",
-    "name": "grafana-panel-plugin-map",
-    "id": "hai2007_grafana-panel-plugin-map",
+    "name": "grafana-panel-radar",
+    "id": "hai2007_grafana-panel-radar",
     "info": {
-        "description": "为Grafana设计开发的Panel地图插件。",
+        "description": "为Grafana设计开发的Panel雷达图插件。 ",
         "author": {
             "name": "你好2007",
             "url": "https://hai2007.gitee.io/sweethome/"
         },
         "keywords": [
-            "grafana-panel-plugin-map"
+            "grafana-panel-radar"
         ],
         "logos": {
             "small": "img/logo.svg",
@@ -18,11 +18,11 @@
         },
         "links": [{
                 "name": "Website",
-                "url": "https://github.com/hai2007/grafana-panel-plugin-map"
+                "url": "https://github.com/hai2007/grafana-panel-radar"
             },
             {
                 "name": "License",
-                "url": "https://github.com/hai2007/grafana-panel-plugin-map/blob/master/LICENSE"
+                "url": "https://github.com/hai2007/grafana-panel-radar/blob/master/LICENSE"
             }
         ],
         "screenshots": [],

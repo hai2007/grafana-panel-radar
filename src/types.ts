@@ -1,3 +1,3 @@
-export interface MapOptions {
-    fillColor: string;
+export interface RadarOptions {
+    fontColor: string;
 }

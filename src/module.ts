@@ -1,12 +1,12 @@
 import { PanelPlugin } from '@grafana/data';
-import { MapOptions } from './types';
-import { MapPanel } from './MapPanel';
+import { RadarOptions } from './types';
+import { RadarPanel } from './RadarPanel';
 
-export const plugin = new PanelPlugin<MapOptions>(MapPanel).setPanelOptions((builder) => {
+export const plugin = new PanelPlugin<RadarOptions>(RadarPanel).setPanelOptions((builder) => {
     return builder.addTextInput({
-        path: 'fillColor',
-        name: '地图颜色',
-        description: '用于设置地图的颜色',
-        defaultValue: 'gray',
+        path: 'fontColor',
+        name: '文字颜色',
+        description: '用于设置文字的颜色',
+        defaultValue: 'white',
     });
 });

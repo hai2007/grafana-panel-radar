@@ -1,12 +1,12 @@
 import React from 'react';
 import { PanelProps } from '@grafana/data';
-import { MapOptions } from 'types';
+import { RadarOptions } from 'types';
 import { css, cx } from 'emotion';
-import Map from 'map';
+import Radar from 'radar';
 
-interface Props extends PanelProps<MapOptions> {}
+interface Props extends PanelProps<RadarOptions> {}
 
-export const MapPanel: React.FC<Props> = ({ options, data, width, height }) => {
+export const RadarPanel: React.FC<Props> = ({ options, data, width, height }) => {
     return (
         <div
             className={cx(
@@ -17,7 +17,7 @@ export const MapPanel: React.FC<Props> = ({ options, data, width, height }) => {
                 `
             )}
         >
-            <Map></Map>
+            <Radar fontColor={options.fontColor}></Radar>
         </div>
     );
 };

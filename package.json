@@ -1,7 +1,7 @@
 {
-    "name": "grafana-panel-plugin-map",
+    "name": "grafana-panel-radar",
     "version": "0.1.0-alpha.0",
-    "description": "为Grafana设计开发的Panel地图插件。",
+    "description": "为Grafana设计开发的Panel雷达图插件。 ",
     "scripts": {
         "build": "grafana-toolkit plugin:build",
         "test": "grafana-toolkit plugin:test",
@@ -22,6 +22,6 @@
         "node": ">=14"
     },
     "dependencies": {
-        "clunch": "^2.3.5"
+        "clunch": "^2.3.6"
     }
 }
